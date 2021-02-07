@@ -6,6 +6,7 @@
       <class name="demo.ExtentReportDemo2">
         <methods>
           <include name="loginTest"/>
+          <include name="endReport"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
