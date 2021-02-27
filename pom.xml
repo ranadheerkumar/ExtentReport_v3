@@ -5,6 +5,10 @@
 	<groupId>ExtentReport</groupId>
 	<artifactId>ExtentReport_v3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 
@@ -31,7 +35,7 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.5</version>
 		</dependency>
-		
+
 
 
 	</dependencies>

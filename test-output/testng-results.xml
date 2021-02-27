@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4633" started-at="2021-02-07T00:32:12Z" finished-at="2021-02-07T00:32:17Z">
+  <suite name="Default suite" duration-ms="7088" started-at="2021-02-22T06:02:40Z" finished-at="2021-02-22T06:02:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4633" started-at="2021-02-07T00:32:12Z" finished-at="2021-02-07T00:32:17Z">
+    <test name="Default test" duration-ms="7088" started-at="2021-02-22T06:02:40Z" finished-at="2021-02-22T06:02:47Z">
       <class name="demo.ExtentReportDemo2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="setup" is-config="true" duration-ms="90" started-at="2021-02-06T18:32:12Z" finished-at="2021-02-06T18:32:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="setup" is-config="true" duration-ms="106" started-at="2021-02-22T00:02:40Z" finished-at="2021-02-22T00:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="loginTest" duration-ms="2905" started-at="2021-02-06T18:32:13Z" finished-at="2021-02-06T18:32:15Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="loginTest" duration-ms="5740" started-at="2021-02-22T00:02:40Z" finished-at="2021-02-22T00:02:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="tearDown" is-config="true" duration-ms="274" started-at="2021-02-06T18:32:15Z" finished-at="2021-02-06T18:32:16Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="tearDown" is-config="true" duration-ms="311" started-at="2021-02-22T00:02:46Z" finished-at="2021-02-22T00:02:46Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="endReport" is-config="true" duration-ms="1348" started-at="2021-02-06T18:32:16Z" finished-at="2021-02-06T18:32:17Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:demo.ExtentReportDemo2@7d68ef40]" name="endReport" is-config="true" duration-ms="913" started-at="2021-02-22T00:02:46Z" finished-at="2021-02-22T00:02:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
