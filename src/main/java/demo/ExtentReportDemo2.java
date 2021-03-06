@@ -43,7 +43,7 @@ public class ExtentReportDemo2 {
 		driver.get("http://www.google.com");
 		System.out.println("title is " + driver.getTitle());
 	//	System.out.println("title is " + driver.getTitle());
-		Assert.assertTrue(driver.getTitle().contains("Googlee"));
+		Assert.assertTrue(driver.getTitle().contains("Google"));
 
 	}
 
