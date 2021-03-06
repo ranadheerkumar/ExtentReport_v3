@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5010" started-at="2021-03-06T07:04:19Z" finished-at="2021-03-06T07:04:24Z">
+  <suite name="Suite" duration-ms="6252" started-at="2021-03-06T08:05:53Z" finished-at="2021-03-06T08:06:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5010" started-at="2021-03-06T07:04:19Z" finished-at="2021-03-06T07:04:24Z">
+    <test name="Test" duration-ms="6252" started-at="2021-03-06T08:05:53Z" finished-at="2021-03-06T08:06:00Z">
       <class name="demo.ExtentReportDemo">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:demo.ExtentReportDemo@448ff1a8]" name="loginTest" duration-ms="316" started-at="2021-03-06T01:04:23Z" finished-at="2021-03-06T01:04:24Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:demo.ExtentReportDemo@33956d1a]" name="loginTest" duration-ms="690" started-at="2021-03-06T02:05:58Z" finished-at="2021-03-06T02:05:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- demo.ExtentReportDemo -->
       <class name="demo.ExtentReportDemo2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:demo.ExtentReportDemo2@51b7e5df]" name="setup" is-config="true" duration-ms="104" started-at="2021-03-06T01:04:19Z" finished-at="2021-03-06T01:04:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.ExtentReportDemo2@267dc982]" name="setup" is-config="true" duration-ms="320" started-at="2021-03-06T02:05:53Z" finished-at="2021-03-06T02:05:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:demo.ExtentReportDemo2@51b7e5df]" name="loginTest" duration-ms="3510" started-at="2021-03-06T01:04:20Z" finished-at="2021-03-06T01:04:23Z">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:demo.ExtentReportDemo2@267dc982]" name="loginTest" duration-ms="4040" started-at="2021-03-06T02:05:54Z" finished-at="2021-03-06T02:05:58Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -28,7 +28,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:489)
 	at org.testng.Assert.assertTrue(Assert.java:37)
 	at org.testng.Assert.assertTrue(Assert.java:47)
-	at demo.ExtentReportDemo2.loginTest(ExtentReportDemo2.java:43)
+	at demo.ExtentReportDemo2.loginTest(ExtentReportDemo2.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demo.ExtentReportDemo2@51b7e5df]" name="tearDown" is-config="true" duration-ms="323" started-at="2021-03-06T01:04:23Z" finished-at="2021-03-06T01:04:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:demo.ExtentReportDemo2@267dc982]" name="tearDown" is-config="true" duration-ms="345" started-at="2021-03-06T02:05:58Z" finished-at="2021-03-06T02:05:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult: loginTest STATUS:FAILURE METHOD:ExtentReportDemo2.loginTest()[pri:0, instance:demo.ExtentReportDemo2@51b7e5df]]
+                <![CDATA[[TestResult: loginTest STATUS:FAILURE METHOD:ExtentReportDemo2.loginTest()[pri:0, instance:demo.ExtentReportDemo2@267dc982]]
 ]]>
               </value>
             </param>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:demo.ExtentReportDemo2@51b7e5df]" name="endReport" is-config="true" duration-ms="740" started-at="2021-03-06T01:04:24Z" finished-at="2021-03-06T01:04:24Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:demo.ExtentReportDemo2@267dc982]" name="endReport" is-config="true" duration-ms="825" started-at="2021-03-06T02:05:59Z" finished-at="2021-03-06T02:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
