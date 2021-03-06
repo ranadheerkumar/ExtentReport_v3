@@ -7,7 +7,7 @@ trigger:
 - Azure-Pipelines-Development
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: win-latest
 
 steps:
 - task: Maven@3
