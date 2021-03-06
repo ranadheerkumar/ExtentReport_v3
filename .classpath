@@ -27,6 +27,11 @@
 	<classpathentry kind="lib" path="D:/Eclipse_Development/lib/jcommander-1.7.jar"/>
 	<classpathentry kind="lib" path="D:/Eclipse_Development/lib/junit-4.13.jar"/>
 	<classpathentry kind="lib" path="D:/Eclipse_Development/lib/selenium-server-3.141.59.jar"/>
-	<classpathentry kind="lib" path="D:/Eclipse_Development/lib/testng-6.7.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
