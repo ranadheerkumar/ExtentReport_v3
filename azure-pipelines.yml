@@ -26,8 +26,3 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'Publish Screenshot as Artifact'
     publishLocation: 'pipeline'
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
