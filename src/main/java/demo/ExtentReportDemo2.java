@@ -1,6 +1,7 @@
 package demo;
 
 import java.io.IOException;
+import java.util.Date;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,13 +27,19 @@ public class ExtentReportDemo2 {
 	// This code will run before executing any testcase
 	@BeforeMethod
 	public void setup() {
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/learn_automation2.html");
+		
+		Date d = new Date();
+		String screenshotName = d.toString().replace(":", "_").replace(" ", "_");
+		System.out.println(screenshotName);
+		
+		
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/"+screenshotName+".html");
 
 		extent = new ExtentReports();
 
 		extent.attachReporter(reporter);
 
-		logger = extent.createTest("LoginTest");
+		logger = extent.createTest("LoginTest1");
 	}
 
 	// Actual Test which will start the application and verify the title
