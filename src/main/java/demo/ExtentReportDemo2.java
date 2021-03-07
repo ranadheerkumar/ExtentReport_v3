@@ -29,7 +29,9 @@ public class ExtentReportDemo2 {
 	public void setup() {
 		
 		Date d = new Date();
+		
 		String screenshotName = d.toString().replace(":", "_").replace(" ", "_");
+		
 		System.out.println(screenshotName);
 				
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/"+screenshotName+".html");
