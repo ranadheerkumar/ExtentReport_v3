@@ -26,7 +26,3 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'Publish Screenshot as Artifact'
     publishLocation: 'pipeline'
-<<<<<<< HEAD
-
-=======
->>>>>>> branch 'Azure-Pipelines-Development' of https://github.com/ranadheerkumar/ExtentReport_v3.git
