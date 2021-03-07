@@ -62,12 +62,12 @@ public class ExtentReportDemo2 {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			String temp = Utility.getScreenshot(driver);
 
-			logger.fail(result.getThrowable().getMessage(),
+			logger.fail("Test Case failed"+result.getThrowable().getMessage(),
 					MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			String temp2 = Utility.getScreenshot(driver);
 			logger.pass("Test Case passed " + result.getName(),	MediaEntityBuilder.createScreenCaptureFromPath(temp2).build());
-			logger.pass(result.getName(), MediaEntityBuilder.createScreenCaptureFromPath(temp2).build());
+		
 		}
 
 	}
