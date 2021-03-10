@@ -23,6 +23,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace/Screenshot)'
+    targetPath: '$(Pipeline.Workspace)/target'
     artifact: 'Publish Screenshot as Artifact'
     publishLocation: 'pipeline'
