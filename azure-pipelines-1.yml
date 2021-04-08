@@ -4,7 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- main
+- no 
+#main
 
 pool:
   vmImage: macOS-latest
