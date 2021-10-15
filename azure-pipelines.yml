@@ -7,7 +7,7 @@ trigger:
 - Azure-Pipelines-Development_local
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: winappdriver2_pc
 
 steps:
 - task: Maven@3
